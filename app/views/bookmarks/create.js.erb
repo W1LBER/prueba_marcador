@@ -1,0 +1,9 @@
+$('#tbody').append('<%= j render @bookmark %>')
+$('#new_bookmark').on('ajax:success', function(){
+  $('#new_bookmark').toggle('slow')
+    $('#notice').append('<div class="alert alert-success"> Se agregó el bookmark correctamente </div>')
+  setTimeout(function() {
+    $('#notice').fadeOut()
+  }, 6000)
+
+})

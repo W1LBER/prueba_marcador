@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PruebaMarcador</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand text-info" href="/">Bookmarks</a>
+      <%= link_to 'Category', categories_path, class:'navbar-brand'%>
+      <%= link_to 'Subcategory', subcategories_path, class:'navbar-brand'%>
+      <%= link_to 'Type', types_path, class:'navbar-brand'%>
+
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+    <script charset="utf-8">
+    </script>
+  </body>
+</html>
