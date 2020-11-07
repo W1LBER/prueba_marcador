@@ -2,7 +2,6 @@ class ApiController < ApplicationController
   def index
     @categories = Category.all
     @all = Array.new
-
     @categories.each do |x|
         hash = {
           name: x.name,

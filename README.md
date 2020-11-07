@@ -1,24 +1,16 @@
-# README
+# Prueba marcador
+![Modelos](./erd-1.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Construido con 
 
-Things you may want to cover:
+* Ruby on rails
+* Ruby
+* Postgresql
 
-* Ruby version
+## Gemas
 
-* System dependencies
+* Chartkick - Para crear gráficos
+* Bootstrap - Framework CSS
+* JQuery - Libreria JS
+* Faker - Para rellenar con datos dummies.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
