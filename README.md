@@ -1,6 +1,8 @@
 # Prueba marcador
 ![Modelos](./erd-1.png)
 
+## Heroku demo
+[Live demo](https://whispering-stream-29063.herokuapp.com/)
 ## Construido con 
 
 * Ruby on rails
